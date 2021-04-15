@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/post/glass/</loc>
+    <loc>/post/glass/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/spin-glass/</loc>
+    <loc>/tags/spin-glass/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/memory/</loc>
+    <loc>/tags/memory/</loc>
     <lastmod>2020-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/memory/</loc>
+    <loc>/post/memory/</loc>
     <lastmod>2020-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/criminology/</loc>
+    <loc>/tags/criminology/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/deterrence/</loc>
+    <loc>/post/deterrence/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/frustration/</loc>
+    <loc>/tags/frustration/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/rbm/</loc>
+    <loc>/post/rbm/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/rbm/</loc>
+    <loc>/tags/rbm/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>/search/</loc>
   </url>
 </urlset>
