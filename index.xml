@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rudy Pei (裴彦儒)</title>
+    <title>Homepage on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/</link>
-    <description>Recent content on Rudy Pei (裴彦儒)</description>
+    <description>Recent content in Homepage on Rudy Pei (裴彦儒)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,40 @@
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://peabrane.github.io/post/glass/</guid>
-      <description>Unlike ferromagnetic spin models, the phase transition profile of a spin glass is highly non-trivial. For mean field models (the SK spin glass), the glass experiences a replica-symmetry breaking phenomenon that is only fully understood recently. However, for short-range models (the EA spin glass), essentially nothing is known rigorously, including basic questions such as the existence of a finite-temperature phase transition. A potential route towards a solution of such problems may rely on a suitable generalization of the powerful random cluster model.</description>
+      <description>&lt;p&gt;Unlike ferromagnetic spin models, a &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34; target=&#34;_blank&#34;&gt;spin glass&lt;/a&gt; has a highly non-trivial phase transition profile. For mean field models (the SK spin glass), the glass experiences a &lt;a href=&#34;http://www.lptms.u-psud.fr/membres/mezard/Pdf/84_MPSTV_JDP.pdf&#34; target=&#34;_blank&#34;&gt;replica-symmetry breaking phenomenon&lt;/a&gt; that is only fully understood &lt;a href=&#34;https://arxiv.org/abs/1112.1003&#34; target=&#34;_blank&#34;&gt;recently&lt;/a&gt;. However, for &lt;a href=&#34;https://arxiv.org/abs/cond-mat/9906076&#34; target=&#34;_blank&#34;&gt;short-range models&lt;/a&gt;, essentially nothing is known &lt;a href=&#34;https://www.springer.com/gp/book/9783764357771&#34; target=&#34;_blank&#34;&gt;rigorously&lt;/a&gt;, including basic questions such as the existence of a finite-temperature phase transition. A potential route towards settling such problems may rely on a suitable generalization of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_cluster_model&#34; target=&#34;_blank&#34;&gt;random cluster model&lt;/a&gt; as a &lt;a href=&#34;https://arxiv.org/abs/1711.02338&#34; target=&#34;_blank&#34;&gt;universal&lt;/a&gt; statistical tool.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>An ecstatic lofi</title>
+      <link>https://peabrane.github.io/comps/lofi/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/comps/lofi/</guid>
+      <description>&lt;p&gt;A &lt;a href=&#34;https://www.youtube.com/watch?v=Jys7Ibv7zqc&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;lofi hip-hop&lt;/a&gt; made from samples of Richter&amp;rsquo;s recording on Scriabin&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=xDTgj_69JKA&amp;amp;ab_channel=Pianoplayer002&#34; target=&#34;_blank&#34;&gt;piano sonata no.5&lt;/a&gt; (beware the loud opening).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>枫水</title>
+      <link>https://peabrane.github.io/poems/opus_1/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/poems/opus_1/</guid>
+      <description>&lt;p&gt;孤叶枝壳垂，
+夕珠红缘坠。
+朦雾残魂萧，
+手瘦时噬泪。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>黑白</title>
+      <link>https://peabrane.github.io/poems/opus_2/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/poems/opus_2/</guid>
+      <description>&lt;p&gt;白雀昏天何觅处，
+黑鹰明空归残树。
+心朱血青翼上溢，
+黑泪白卷蜡灼数。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,7 +55,16 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://peabrane.github.io/post/memory/</guid>
-      <description>The universality classes of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of non-equilibrium criticality, including its existence. Nonetheless, from numerical simulations, it appears that memory effects are fundamental driving forces behind dynamic criticality, as they establish long-range order irrespective of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Universality_class&#34; target=&#34;_blank&#34;&gt;universality classes&lt;/a&gt; of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of &lt;a href=&#34;https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics&#34; target=&#34;_blank&#34;&gt;non-equilibrium criticality&lt;/a&gt;, including its existence. Nonetheless, from &lt;a href=&#34;https://arxiv.org/abs/2102.04557&#34; target=&#34;_blank&#34;&gt;numerical simulations&lt;/a&gt;, it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Opus 3: short piece with 100 notes</title>
+      <link>https://peabrane.github.io/comps/opus_3/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/comps/opus_3/</guid>
+      <description>&lt;p&gt;The title says it all. A short &lt;a href=&#34;https://www.youtube.com/watch?v=ggRK0jN6nX0&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;piano piece&lt;/a&gt; written in exactly 100 notes. Inspired by Nahre Sol&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=8GCNNDzqnHY&amp;amp;ab_channel=NahreSol&#34; target=&#34;_blank&#34;&gt;100 note challenge&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +73,7 @@
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://peabrane.github.io/post/deterrence/</guid>
-      <description>In classical economics, a potential offender is treated as a rational agent that seeks to maximize the expected utility when deciding to commit a crime. Therefore, if the threat of legal punishment outweights the perceived gain from crime, then the offender is deterred. However, in reality, there are complex behavioral traits governing the actions of each individuals that deviate from rationality, and these effects need to be captured in order to construct an economic model of deterrence.</description>
+      <description>&lt;p&gt;In classical economics, a potential offender is treated as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rational_choice_theory&#34; target=&#34;_blank&#34;&gt;rational agent&lt;/a&gt; that seeks to maximize the expected utility when deciding whether to commit a crime. Therefore, if the perceived threat of legal punishment outweights the gains from the crime action, then the offender is &lt;a href=&#34;https://en.wikipedia.org/wiki/Deterrence_%28penology%29&#34; target=&#34;_blank&#34;&gt;deterred&lt;/a&gt;. However, in reality, there are complex &lt;a href=&#34;https://en.wikipedia.org/wiki/Prospect_theory&#34; target=&#34;_blank&#34;&gt;behavioral traits&lt;/a&gt; governing the risk perception of each individual that deviate from rationality. These effects need to be captured in order to construct a &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3457220&#34; target=&#34;_blank&#34;&gt;general model of deterrence&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,7 +82,25 @@
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://peabrane.github.io/post/rbm/</guid>
-      <description>On a signed graph (or spin glass), often times there are interactions that cannot be satisfied no matter how one assigns the spin state. This property is known as frustration. The study of frustration of a bipartite graph is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a highly frustrated RBM has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more efficient training.</description>
+      <description>&lt;p&gt;On a &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0166218X82900336&#34; target=&#34;_blank&#34;&gt;signed graph&lt;/a&gt; (or spin glass), often times there are interactions that cannot be satisfied regardless of how one assigns the spin states. This property is known as frustration. The study of &lt;a href=&#34;https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p10&#34; target=&#34;_blank&#34;&gt;frustration of a bipartite graph&lt;/a&gt; is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a &lt;a href=&#34;https://jmlr.org/papers/v21/19-368.html&#34; target=&#34;_blank&#34;&gt;highly frustrated RBM&lt;/a&gt; has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more &lt;a href=&#34;https://arxiv.org/abs/2001.05559&#34; target=&#34;_blank&#34;&gt;efficient training&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Opus 2: Green Water</title>
+      <link>https://peabrane.github.io/comps/opus_2/</link>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/comps/opus_2/</guid>
+      <description>&lt;p&gt;A fantasy inspired by a trip to &lt;a href=&#34;https://www.japan-guide.com/e/e5950.html&#34; target=&#34;_blank&#34;&gt;Gokayama&lt;/a&gt;. Incorporates elements of impressionism, Hirajoshi scale, mysticism, and jazz into a musical porridge to be &lt;a href=&#34;https://www.youtube.com/watch?v=KIa9ACeGUkg&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;consumed&lt;/a&gt; in 5 minutes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Opus 1: prelude in C</title>
+      <link>https://peabrane.github.io/comps/opus_1/</link>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/comps/opus_1/</guid>
+      <description>&lt;p&gt;An early attempt to write a short prelude in a Prokofievian style. The title is almost a joke because the bulk of this piece is not in C. Available on &lt;a href=&#34;https://www.youtube.com/watch?v=Ab0pKJ9TA74&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;youtube&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

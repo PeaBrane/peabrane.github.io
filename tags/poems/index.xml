@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poems on Rudy Pei (裴彦儒)</title>
+    <link>https://peabrane.github.io/tags/poems/</link>
+    <description>Recent content in poems on Rudy Pei (裴彦儒)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/poems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>枫水</title>
+      <link>https://peabrane.github.io/poems/opus_1/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/poems/opus_1/</guid>
+      <description>&lt;p&gt;孤叶枝壳垂，
+夕珠红缘坠。
+朦雾残魂萧，
+手瘦时噬泪。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>黑白</title>
+      <link>https://peabrane.github.io/poems/opus_2/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://peabrane.github.io/poems/opus_2/</guid>
+      <description>&lt;p&gt;白雀昏天何觅处，
+黑鹰明空归残树。
+心朱血青翼上溢，
+黑泪白卷蜡灼数。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
