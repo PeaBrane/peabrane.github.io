@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>criminology on Rudy Pei (裴彦儒)</title>
-    <link>/tags/criminology/</link>
+    <link>https://peabrane.github.io/tags/criminology/</link>
     <description>Recent content in criminology on Rudy Pei (裴彦儒)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/criminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/criminology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimal Deterrence Based on Behavioral Traits</title>
-      <link>/post/deterrence/</link>
+      <link>https://peabrane.github.io/post/deterrence/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/deterrence/</guid>
+      <guid>https://peabrane.github.io/post/deterrence/</guid>
       <description>In classical economics, a potential offender is treated as a rational agent that seeks to maximize the expected utility when deciding to commit a crime. Therefore, if the threat of legal punishment outweights the perceived gain from crime, then the offender is deterred. However, in reality, there are complex behavioral traits governing the actions of each individuals that deviate from rationality, and these effects need to be captured in order to construct an economic model of deterrence.</description>
     </item>
     

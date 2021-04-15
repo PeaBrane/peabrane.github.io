@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>frustration on Rudy Pei (裴彦儒)</title>
-    <link>/tags/frustration/</link>
+    <link>https://peabrane.github.io/tags/frustration/</link>
     <description>Recent content in frustration on Rudy Pei (裴彦儒)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/frustration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/frustration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Frustration and Unsupervised Learning</title>
-      <link>/post/rbm/</link>
+      <link>https://peabrane.github.io/post/rbm/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/rbm/</guid>
+      <guid>https://peabrane.github.io/post/rbm/</guid>
       <description>On a signed graph (or spin glass), often times there are interactions that cannot be satisfied no matter how one assigns the spin state. This property is known as frustration. The study of frustration of a bipartite graph is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a highly frustrated RBM has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more efficient training.</description>
     </item>
     
