@@ -27,10 +27,10 @@
     
     <item>
       <title>枫水</title>
-      <link>https://peabrane.github.io/poems/opus_1/</link>
+      <link>https://peabrane.github.io/poems/leaf/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://peabrane.github.io/poems/opus_1/</guid>
+      <guid>https://peabrane.github.io/poems/leaf/</guid>
       <description>&lt;p&gt;孤叶枝壳垂，
 夕珠红缘坠。
 朦雾残魂萧，
@@ -39,10 +39,10 @@
     
     <item>
       <title>黑白</title>
-      <link>https://peabrane.github.io/poems/opus_2/</link>
+      <link>https://peabrane.github.io/poems/black/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://peabrane.github.io/poems/opus_2/</guid>
+      <guid>https://peabrane.github.io/poems/black/</guid>
       <description>&lt;p&gt;白雀昏天何觅处，
 黑鹰明空归残树。
 心朱血青翼上溢，
@@ -55,7 +55,8 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://peabrane.github.io/post/memory/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Universality_class&#34; target=&#34;_blank&#34;&gt;universality classes&lt;/a&gt; of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of &lt;a href=&#34;https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics&#34; target=&#34;_blank&#34;&gt;non-equilibrium criticality&lt;/a&gt;, including its existence. Nonetheless, from &lt;a href=&#34;https://arxiv.org/abs/2102.04557&#34; target=&#34;_blank&#34;&gt;numerical simulations&lt;/a&gt;, it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
+      <description>&lt;p&gt;
+The [universality classes](https://en.wikipedia.org/wiki/Universality_class) of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of [non-equilibrium criticality](https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics), including its existence. Nonetheless, from [numerical simulations](https://arxiv.org/abs/2102.04557), it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
     </item>
     
     <item>

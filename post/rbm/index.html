@@ -91,7 +91,7 @@
     <div class="post-item post-meta">
         <span><i class="iconfont icon-today-sharp"></i>&nbsp;2019-03-01</span>
 
-<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;83 words</span>
+<span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;142 words</span>
 
 <span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/frustration">frustration</a>&nbsp;<a href="/tags/rbm">rbm</a>&nbsp;</span>
 
@@ -99,8 +99,15 @@
     
     <div class="post-content markdown-body">
         <p>On a <a href="https://www.sciencedirect.com/science/article/pii/0166218X82900336" target="_blank">signed graph</a> (or spin glass), often times there are interactions that cannot be satisfied regardless of how one assigns the spin states. This property is known as frustration. The study of <a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p10" target="_blank">frustration of a bipartite graph</a> is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a <a href="https://jmlr.org/papers/v21/19-368.html" target="_blank">highly frustrated RBM</a> has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more <a href="https://arxiv.org/abs/2001.05559" target="_blank">efficient training</a>.</p>
-<p><img class="img-zoomable" src="/img/cd_frus.png" alt="" />
+<p>
+There is some numerical evidence that the complexity of a bipartite glass (or RBM) may display a double phase-transition as the frustration ratio is increased.</p>
+<p><img class="img-zoomable" src="/img/post/frus_comp.png" alt="" />
 </p>
+<p>
+The frustration ratio may also be used as a proxy (in place of KL-divergence) in monitoring the training progress of the RBM, as it is expected to be more easily estimated.</p>
+<p><img class="img-zoomable" src="/img/post/frus_cd.png" alt="" />
+</p>
+<p><a href="/post">Back to projects</a></p>
     </div>
 </article>
 
