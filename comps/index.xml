@@ -1,47 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Compositions on Rudy Pei (裴彦儒)</title>
+    <title>Music on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/comps/</link>
-    <description>Recent content in Compositions on Rudy Pei (裴彦儒)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Music on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/comps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/comps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stay With Me x Golden Hour mashup</title>
+      <link>https://peabrane.github.io/comps/stay_gold/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/comps/stay_gold/</guid>
+      <description>&lt;p&gt;A mashup of &lt;em&gt;Stay With Me&lt;/em&gt; and &lt;em&gt;Golden Hour&lt;/em&gt;. Available on &lt;a href=&#34;https://www.youtube.com/watch?v=m2D4OCTpvx4&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>An ecstatic lofi</title>
       <link>https://peabrane.github.io/comps/lofi/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/comps/lofi/</guid>
-      <description>&lt;p&gt;A &lt;a href=&#34;https://www.youtube.com/watch?v=Jys7Ibv7zqc&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;lofi hip-hop&lt;/a&gt; made from samples of Richter&amp;rsquo;s recording on Scriabin&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=xDTgj_69JKA&amp;amp;ab_channel=Pianoplayer002&#34; target=&#34;_blank&#34;&gt;piano sonata no.5&lt;/a&gt; (beware the loud opening).&lt;/p&gt;</description>
+      <description>&lt;p&gt;A &lt;a href=&#34;https://www.youtube.com/watch?v=Jys7Ibv7zqc&amp;amp;ab_channel=PeaBrane&#34;&gt;lofi hip-hop&lt;/a&gt; made from samples of Richter&amp;rsquo;s recording on Scriabin&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=xDTgj_69JKA&amp;amp;ab_channel=Pianoplayer002&#34;&gt;piano sonata no.5&lt;/a&gt; (beware the loud opening).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Opus 3: short piece with 100 notes</title>
       <link>https://peabrane.github.io/comps/opus_3/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/comps/opus_3/</guid>
-      <description>&lt;p&gt;The title says it all. A short &lt;a href=&#34;https://www.youtube.com/watch?v=ggRK0jN6nX0&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;piano piece&lt;/a&gt; written in exactly 100 notes. Inspired by Nahre Sol&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=8GCNNDzqnHY&amp;amp;ab_channel=NahreSol&#34; target=&#34;_blank&#34;&gt;100 note challenge&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The title says it all. A short &lt;a href=&#34;https://www.youtube.com/watch?v=ggRK0jN6nX0&amp;amp;ab_channel=PeaBrane&#34;&gt;piano piece&lt;/a&gt; written in exactly 100 notes. Inspired by Nahre Sol&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=8GCNNDzqnHY&amp;amp;ab_channel=NahreSol&#34;&gt;100 note challenge&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Happy Birthday: a medley of her favorite songs</title>
+      <link>https://peabrane.github.io/comps/happy_birthday/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/comps/happy_birthday/</guid>
+      <description>&lt;p&gt;A happy birthday incorporating all of Yuki&amp;rsquo;s favorite songs as her birthday present. Available on &lt;a href=&#34;https://www.youtube.com/watch?v=nq9Rx24EICs&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debussy: La plus que lente over Tohoku</title>
+      <link>https://peabrane.github.io/comps/debussy_tohoku/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/comps/debussy_tohoku/</guid>
+      <description>&lt;p&gt;A playing of Debussy&amp;rsquo;s &lt;em&gt;La plus que lente&lt;/em&gt; set over travel pics to Tohoku. Available on &lt;a href=&#34;https://www.youtube.com/watch?v=G37pVuMst98&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Opus 2: Green Water</title>
       <link>https://peabrane.github.io/comps/opus_2/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/comps/opus_2/</guid>
-      <description>&lt;p&gt;A fantasy inspired by a trip to &lt;a href=&#34;https://www.japan-guide.com/e/e5950.html&#34; target=&#34;_blank&#34;&gt;Gokayama&lt;/a&gt;. Incorporates elements of impressionism, Hirajoshi scale, mysticism, and jazz into a musical porridge to be &lt;a href=&#34;https://www.youtube.com/watch?v=KIa9ACeGUkg&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;consumed&lt;/a&gt; in 5 minutes.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A fantasy inspired by a trip to &lt;a href=&#34;https://www.japan-guide.com/e/e5950.html&#34;&gt;Gokayama&lt;/a&gt;. Incorporates elements of impressionism, Hirajoshi scale, mysticism, and jazz into a musical porridge to be &lt;a href=&#34;https://www.youtube.com/watch?v=KIa9ACeGUkg&amp;amp;ab_channel=PeaBrane&#34;&gt;consumed&lt;/a&gt; in 5 minutes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Opus 1: prelude in C</title>
       <link>https://peabrane.github.io/comps/opus_1/</link>
       <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/comps/opus_1/</guid>
-      <description>&lt;p&gt;An early attempt to write a short prelude in a Prokofievian style. The title is almost a joke because the bulk of this piece is not in C. Available on &lt;a href=&#34;https://www.youtube.com/watch?v=Ab0pKJ9TA74&amp;amp;ab_channel=PeaBrane&#34; target=&#34;_blank&#34;&gt;youtube&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;An early attempt to write a short prelude in a Prokofievian style. The title is almost a joke because the bulk of this piece is not in C. Available on &lt;a href=&#34;https://www.youtube.com/watch?v=Ab0pKJ9TA74&amp;amp;ab_channel=PeaBrane&#34;&gt;youtube&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

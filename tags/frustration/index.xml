@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>frustration on Rudy Pei (裴彦儒)</title>
+    <title>Frustration on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/tags/frustration/</link>
-    <description>Recent content in frustration on Rudy Pei (裴彦儒)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Frustration on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/frustration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/frustration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Frustration and Unsupervised Learning</title>
       <link>https://peabrane.github.io/post/rbm/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/rbm/</guid>
-      <description>&lt;p&gt;On a &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0166218X82900336&#34; target=&#34;_blank&#34;&gt;signed graph&lt;/a&gt; (or spin glass), often times there are interactions that cannot be satisfied regardless of how one assigns the spin states. This property is known as frustration. The study of &lt;a href=&#34;https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p10&#34; target=&#34;_blank&#34;&gt;frustration of a bipartite graph&lt;/a&gt; is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a &lt;a href=&#34;https://jmlr.org/papers/v21/19-368.html&#34; target=&#34;_blank&#34;&gt;highly frustrated RBM&lt;/a&gt; has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more &lt;a href=&#34;https://arxiv.org/abs/2001.05559&#34; target=&#34;_blank&#34;&gt;efficient training&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;On a &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0166218X82900336&#34;&gt;signed graph&lt;/a&gt; (or spin glass), often times there are interactions that cannot be satisfied regardless of how one assigns the spin states. This property is known as frustration. The study of &lt;a href=&#34;https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p10&#34;&gt;frustration of a bipartite graph&lt;/a&gt; is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a &lt;a href=&#34;https://jmlr.org/papers/v21/19-368.html&#34;&gt;highly frustrated RBM&lt;/a&gt; has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more &lt;a href=&#34;https://arxiv.org/abs/2001.05559&#34;&gt;efficient training&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

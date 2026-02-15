@@ -2,13 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peabrane.github.io/</loc>
-    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <loc>https://peabrane.github.io/tags/distributed-systems/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/post/glass/</loc>
-    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <loc>https://peabrane.github.io/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/llm-inference/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/dynamo/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/rust/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/deep-learning/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/edge-ai/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/state-space-models/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/tenns/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/composition/</loc>
+    <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/comps/</loc>
+    <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/piano/</loc>
+    <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/comps/stay_gold/</loc>
+    <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/glass/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/spin-glass/</loc>
@@ -17,17 +56,17 @@
     <loc>https://peabrane.github.io/comps/lofi/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/comps/</loc>
-    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peabrane.github.io/tags/lofi/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/poems/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/poems/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/poems/tempo/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/poems/leaf/</loc>
     <lastmod>2020-06-15T00:00:00+00:00</lastmod>
@@ -44,14 +83,14 @@
     <loc>https://peabrane.github.io/comps/opus_3/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/tags/piano/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peabrane.github.io/tags/criminology/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/deterrence/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/comps/happy_birthday/</loc>
+    <lastmod>2019-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/frustration/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
@@ -62,13 +101,16 @@
     <loc>https://peabrane.github.io/tags/rbm/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://peabrane.github.io/comps/debussy_tohoku/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peabrane.github.io/comps/opus_2/</loc>
     <lastmod>2018-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/comps/opus_1/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/archives/</loc>
+    <loc>https://peabrane.github.io/cv/</loc>
   </url><url>
     <loc>https://peabrane.github.io/search/</loc>
   </url><url>

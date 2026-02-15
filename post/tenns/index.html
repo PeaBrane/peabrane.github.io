@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Temporal Neural Networks (TENNs) at BrainChip | Rudy Pei (裴彦儒)</title>
+<meta name="keywords" content="state-space-models, edge-ai, deep-learning">
+<meta name="description" content="While working at BrainChip, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.">
+<meta name="author" content="PeaBrane">
+<link rel="canonical" href="https://peabrane.github.io/post/tenns/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://peabrane.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://peabrane.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://peabrane.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://peabrane.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://peabrane.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://peabrane.github.io/post/tenns/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://peabrane.github.io/post/tenns/">
+  <meta property="og:site_name" content="Rudy Pei (裴彦儒)">
+  <meta property="og:title" content="Temporal Neural Networks (TENNs) at BrainChip">
+  <meta property="og:description" content="While working at BrainChip, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-01-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-15T00:00:00+00:00">
+    <meta property="article:tag" content="State-Space-Models">
+    <meta property="article:tag" content="Edge-Ai">
+    <meta property="article:tag" content="Deep-Learning">
+      <meta property="og:image" content="https://peabrane.github.io/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://peabrane.github.io/img/og.png">
+<meta name="twitter:title" content="Temporal Neural Networks (TENNs) at BrainChip">
+<meta name="twitter:description" content="While working at BrainChip, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://peabrane.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Temporal Neural Networks (TENNs) at BrainChip",
+      "item": "https://peabrane.github.io/post/tenns/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Temporal Neural Networks (TENNs) at BrainChip",
+  "name": "Temporal Neural Networks (TENNs) at BrainChip",
+  "description": "While working at BrainChip, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.\n",
+  "keywords": [
+    "state-space-models", "edge-ai", "deep-learning"
+  ],
+  "articleBody": "While working at BrainChip, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.\nThe project resulted in several publications:\nTENNsEye (CVPR 2024 Workshop) — A lightweight causal spatiotemporal network for online eye tracking with event cameras. Targets edge hardware via simple operations (convolutions, ReLU), online inference through output buffering, and \u003e90% activation sparsity through regularization. Reached 0.9916 p10 accuracy on the AIS 2024 challenge.\nCentaurus (ICLR 2025 Spotlight, solo author) — Treats SSM operations as tensor contractions and systematically determines their optimal ordering to maximize training efficiency. This unlocks flexible SSM block designs beyond depthwise-separable configurations — group convolutions, full convolutions, bottleneck blocks — all composed into a heterogeneous architecture. The first fully state-space network with competitive ASR performance without LSTMs, explicit convolutions, or attention.\naTENNuate (Interspeech 2025) — A deep state-space autoencoder for real-time raw speech enhancement. Processes waveforms end-to-end with no spectral pre/post-processing, outperforming prior real-time denoising models in PESQ while using only 0.84M parameters and 0.33G MACs. Remains performant even when input is compressed down to 4000 Hz and 4 bits.\nPLEIADES (NeurIPS 2025) — Uses structured temporal kernels based on orthogonal polynomials for online spatiotemporal classification and detection. Handles variable sample rates and discretization step-sizes without fine-tuning. Achieved state-of-the-art on DVS128 gesture recognition (99.6%), AIS 2024 eye tracking (99.6%), and PROPHESEE 1MP automotive detection (0.556 mAP) — all with sub-million parameter counts.\nOn the side, I also put together mamba-tiny — a minimal single-file PyTorch implementation of the Mamba SSM using logcumsumexp as an alternative to the parallel scan (which wasn’t available in PyTorch at the time).\nBack to projects\n",
+  "wordCount" : "309",
+  "inLanguage": "en",
+  "image": "https://peabrane.github.io/img/og.png","datePublished": "2025-01-15T00:00:00Z",
+  "dateModified": "2025-01-15T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "PeaBrane"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://peabrane.github.io/post/tenns/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rudy Pei (裴彦儒)",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://peabrane.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://peabrane.github.io/" accesskey="h" title="Rudy Pei (裴彦儒) (Alt + H)">Rudy Pei (裴彦儒)</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://peabrane.github.io/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://peabrane.github.io/post/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://peabrane.github.io/comps/" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://peabrane.github.io/poems/" title="Poems">
+                    <span>Poems</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://peabrane.github.io/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://peabrane.github.io/links/" title="Links">
+                    <span>Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://peabrane.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://peabrane.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://peabrane.github.io/post/">Projects</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Temporal Neural Networks (TENNs) at BrainChip
+    </h1>
+    <div class="post-meta"><span title='2025-01-15 00:00:00 +0000 UTC'>January 15, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>309 words</span>&nbsp;·&nbsp;<span>PeaBrane</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>While working at <a href="https://brainchip.com/">BrainChip</a>, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.</p>
+<p>The project resulted in several publications:</p>
+<ul>
+<li>
+<p><a href="https://openaccess.thecvf.com/content/CVPR2024W/AI4Streaming/html/Pei_A_Lightweight_Spatiotemporal_Network_for_Online_Eye_Tracking_with_Event_CVPRW_2024_paper.html"><strong>TENNsEye</strong></a> (CVPR 2024 Workshop) — A lightweight causal spatiotemporal network for online eye tracking with event cameras. Targets edge hardware via simple operations (convolutions, ReLU), online inference through output buffering, and &gt;90% activation sparsity through regularization. Reached 0.9916 p10 accuracy on the AIS 2024 challenge.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=Ajo3RIk5y5M&amp;t=59s"><strong>Centaurus</strong></a> (ICLR 2025 Spotlight, solo author) — Treats SSM operations as tensor contractions and systematically determines their optimal ordering to maximize training efficiency. This unlocks flexible SSM block designs beyond depthwise-separable configurations — group convolutions, full convolutions, bottleneck blocks — all composed into a heterogeneous architecture. The first fully state-space network with competitive ASR performance without LSTMs, explicit convolutions, or attention.</p>
+</li>
+<li>
+<p><a href="https://www.isca-archive.org/interspeech_2025/pei25_interspeech.pdf"><strong>aTENNuate</strong></a> (Interspeech 2025) — A deep state-space autoencoder for real-time raw speech enhancement. Processes waveforms end-to-end with no spectral pre/post-processing, outperforming prior real-time denoising models in PESQ while using only 0.84M parameters and 0.33G MACs. Remains performant even when input is compressed down to 4000 Hz and 4 bits.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=B5bzYl4zjPU&amp;t=401s"><strong>PLEIADES</strong></a> (NeurIPS 2025) — Uses structured temporal kernels based on orthogonal polynomials for online spatiotemporal classification and detection. Handles variable sample rates and discretization step-sizes without fine-tuning. Achieved state-of-the-art on DVS128 gesture recognition (99.6%), AIS 2024 eye tracking (99.6%), and PROPHESEE 1MP automotive detection (0.556 mAP) — all with sub-million parameter counts.</p>
+</li>
+</ul>
+<p>On the side, I also put together <a href="https://github.com/PeaBrane/mamba-tiny"><strong>mamba-tiny</strong></a> — a minimal single-file PyTorch implementation of the Mamba SSM using <code>logcumsumexp</code> as an alternative to the parallel scan (which wasn&rsquo;t available in PyTorch at the time).</p>
+<p><a href="/post">Back to projects</a></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://peabrane.github.io/tags/state-space-models/">State-Space-Models</a></li>
+      <li><a href="https://peabrane.github.io/tags/edge-ai/">Edge-Ai</a></li>
+      <li><a href="https://peabrane.github.io/tags/deep-learning/">Deep-Learning</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://peabrane.github.io/post/dynamo/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>NVIDIA Dynamo: Distributed LLM Inference</span>
+  </a>
+  <a class="next" href="https://peabrane.github.io/post/glass/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Phase Transition in Spin Glass</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://peabrane.github.io/">Rudy Pei (裴彦儒)</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

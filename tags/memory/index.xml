@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>memory on Rudy Pei (裴彦儒)</title>
+    <title>Memory on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/tags/memory/</link>
-    <description>Recent content in memory on Rudy Pei (裴彦儒)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Memory on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/memory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-equilibrium Criticality of Memory</title>
       <link>https://peabrane.github.io/post/memory/</link>
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/memory/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Universality_class&#34; target=&#34;_blank&#34;&gt;universality classes&lt;/a&gt; of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of &lt;a href=&#34;https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics&#34; target=&#34;_blank&#34;&gt;non-equilibrium criticality&lt;/a&gt;, including its existence. Nonetheless, from &lt;a href=&#34;https://arxiv.org/abs/2102.04557&#34; target=&#34;_blank&#34;&gt;numerical simulations&lt;/a&gt;, it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Universality_class&#34;&gt;universality classes&lt;/a&gt; of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of &lt;a href=&#34;https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics&#34;&gt;non-equilibrium criticality&lt;/a&gt;, including its existence. Nonetheless, from &lt;a href=&#34;https://arxiv.org/abs/2102.04557&#34;&gt;numerical simulations&lt;/a&gt;, it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

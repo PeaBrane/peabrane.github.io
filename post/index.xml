@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/post/</link>
     <description>Recent content in Projects on Rudy Pei (裴彦儒)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA Dynamo: Distributed LLM Inference</title>
+      <link>https://peabrane.github.io/post/dynamo/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/dynamo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;Dynamo&lt;/a&gt; is NVIDIA&amp;rsquo;s open-source datacenter-scale distributed inference serving framework for generative AI and reasoning models. Built in Rust for performance and Python for extensibility, it supports disaggregated prefill and decode, dynamic GPU scheduling, and LLM-aware request routing across multi-node multi-GPU topologies. The project has 6k+ GitHub stars and supports backends including TensorRT-LLM, vLLM, and SGLang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temporal Neural Networks (TENNs) at BrainChip</title>
+      <link>https://peabrane.github.io/post/tenns/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/tenns/</guid>
+      <description>&lt;p&gt;While working at &lt;a href=&#34;https://brainchip.com/&#34;&gt;BrainChip&lt;/a&gt;, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Phase Transition in Spin Glass</title>
       <link>https://peabrane.github.io/post/glass/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/glass/</guid>
-      <description>&lt;p&gt;Unlike ferromagnetic spin models, a &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34; target=&#34;_blank&#34;&gt;spin glass&lt;/a&gt; has a highly non-trivial phase transition profile. For mean field models (the SK spin glass), the glass experiences a &lt;a href=&#34;http://www.lptms.u-psud.fr/membres/mezard/Pdf/84_MPSTV_JDP.pdf&#34; target=&#34;_blank&#34;&gt;replica-symmetry breaking phenomenon&lt;/a&gt; that is only fully understood &lt;a href=&#34;https://arxiv.org/abs/1112.1003&#34; target=&#34;_blank&#34;&gt;recently&lt;/a&gt;. However, for &lt;a href=&#34;https://arxiv.org/abs/cond-mat/9906076&#34; target=&#34;_blank&#34;&gt;short-range models&lt;/a&gt;, almost nothing is known &lt;a href=&#34;https://www.springer.com/gp/book/9783764357771&#34; target=&#34;_blank&#34;&gt;rigorously&lt;/a&gt;, including basic problems such as the nature of the glass transition. A potential route towards settling such problems may rely on a suitable generalization of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_cluster_model&#34; target=&#34;_blank&#34;&gt;random cluster model&lt;/a&gt; as a &lt;a href=&#34;https://arxiv.org/abs/1711.02338&#34; target=&#34;_blank&#34;&gt;universal&lt;/a&gt; statistical tool.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Unlike ferromagnetic spin models, a &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34;&gt;spin glass&lt;/a&gt; has a highly non-trivial phase transition profile. For mean field models (the SK spin glass), the glass experiences a &lt;a href=&#34;http://www.lptms.u-psud.fr/membres/mezard/Pdf/84_MPSTV_JDP.pdf&#34;&gt;replica-symmetry breaking phenomenon&lt;/a&gt; that is only fully understood &lt;a href=&#34;https://arxiv.org/abs/1112.1003&#34;&gt;recently&lt;/a&gt;. However, for &lt;a href=&#34;https://arxiv.org/abs/cond-mat/9906076&#34;&gt;short-range models&lt;/a&gt;, almost nothing is known &lt;a href=&#34;https://www.springer.com/gp/book/9783764357771&#34;&gt;rigorously&lt;/a&gt;, including basic problems such as the nature of the glass transition. A potential route towards settling such problems may rely on a suitable generalization of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_cluster_model&#34;&gt;random cluster model&lt;/a&gt; as a &lt;a href=&#34;https://arxiv.org/abs/1711.02338&#34;&gt;universal&lt;/a&gt; statistical tool.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Non-equilibrium Criticality of Memory</title>
       <link>https://peabrane.github.io/post/memory/</link>
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/memory/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Universality_class&#34; target=&#34;_blank&#34;&gt;universality classes&lt;/a&gt; of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of &lt;a href=&#34;https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics&#34; target=&#34;_blank&#34;&gt;non-equilibrium criticality&lt;/a&gt;, including its existence. Nonetheless, from &lt;a href=&#34;https://arxiv.org/abs/2102.04557&#34; target=&#34;_blank&#34;&gt;numerical simulations&lt;/a&gt;, it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Universality_class&#34;&gt;universality classes&lt;/a&gt; of equilibrium phase transitions of many statistical models are well known. On the other hand, very little is understood about the phenomenon of &lt;a href=&#34;https://en.wikipedia.org/wiki/Critical_phenomena#Critical_dynamics&#34;&gt;non-equilibrium criticality&lt;/a&gt;, including its existence. Nonetheless, from &lt;a href=&#34;https://arxiv.org/abs/2102.04557&#34;&gt;numerical simulations&lt;/a&gt;, it appears that memory effects are fundamental driving forces behind dynamic criticality. They are capable of establishing long-range order irrespective of the structure of the equilibrium model. A theoretical understanding of the role of memory in complex systems is important to understanding critical phenomenon as a whole.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Optimal Deterrence Based on Behavioral Traits</title>
       <link>https://peabrane.github.io/post/deterrence/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/deterrence/</guid>
-      <description>&lt;p&gt;In classical economics, a potential offender is treated as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rational_choice_theory&#34; target=&#34;_blank&#34;&gt;rational agent&lt;/a&gt; that seeks to maximize the expected utility when deciding whether to commit a crime. Therefore, if the perceived threat of legal punishment outweights the gains from the crime action, then the offender is &lt;a href=&#34;https://en.wikipedia.org/wiki/Deterrence_%28penology%29&#34; target=&#34;_blank&#34;&gt;deterred&lt;/a&gt;. However, in reality, there are complex &lt;a href=&#34;https://en.wikipedia.org/wiki/Prospect_theory&#34; target=&#34;_blank&#34;&gt;behavioral traits&lt;/a&gt; governing the risk perception of each individual that deviate from rationality. These effects need to be captured in order to construct a &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3457220&#34; target=&#34;_blank&#34;&gt;general model of deterrence&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In classical economics, a potential offender is treated as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rational_choice_theory&#34;&gt;rational agent&lt;/a&gt; that seeks to maximize the expected utility when deciding whether to commit a crime. Therefore, if the perceived threat of legal punishment outweights the gains from the crime action, then the offender is &lt;a href=&#34;https://en.wikipedia.org/wiki/Deterrence_(penology)&#34;&gt;deterred&lt;/a&gt;. However, in reality, there are complex &lt;a href=&#34;https://en.wikipedia.org/wiki/Prospect_theory&#34;&gt;behavioral traits&lt;/a&gt; governing the risk perception of each individual that deviate from rationality. These effects need to be captured in order to construct a &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3457220&#34;&gt;general model of deterrence&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Frustration and Unsupervised Learning</title>
       <link>https://peabrane.github.io/post/rbm/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/rbm/</guid>
-      <description>&lt;p&gt;On a &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0166218X82900336&#34; target=&#34;_blank&#34;&gt;signed graph&lt;/a&gt; (or spin glass), often times there are interactions that cannot be satisfied regardless of how one assigns the spin states. This property is known as frustration. The study of &lt;a href=&#34;https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p10&#34; target=&#34;_blank&#34;&gt;frustration of a bipartite graph&lt;/a&gt; is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a &lt;a href=&#34;https://jmlr.org/papers/v21/19-368.html&#34; target=&#34;_blank&#34;&gt;highly frustrated RBM&lt;/a&gt; has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more &lt;a href=&#34;https://arxiv.org/abs/2001.05559&#34; target=&#34;_blank&#34;&gt;efficient training&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;On a &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0166218X82900336&#34;&gt;signed graph&lt;/a&gt; (or spin glass), often times there are interactions that cannot be satisfied regardless of how one assigns the spin states. This property is known as frustration. The study of &lt;a href=&#34;https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p10&#34;&gt;frustration of a bipartite graph&lt;/a&gt; is an active topic in graph theory, and has some important applications in unsupervised learning. For instance, a &lt;a href=&#34;https://jmlr.org/papers/v21/19-368.html&#34;&gt;highly frustrated RBM&lt;/a&gt; has several desirable statistical properties, such as the correspondence between the joint and marginal distribution, that can be leveraged to achieve more &lt;a href=&#34;https://arxiv.org/abs/2001.05559&#34;&gt;efficient training&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

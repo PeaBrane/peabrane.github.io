@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>criminology on Rudy Pei (裴彦儒)</title>
+    <title>Criminology on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/tags/criminology/</link>
-    <description>Recent content in criminology on Rudy Pei (裴彦儒)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Criminology on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/criminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/criminology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimal Deterrence Based on Behavioral Traits</title>
       <link>https://peabrane.github.io/post/deterrence/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/deterrence/</guid>
-      <description>&lt;p&gt;In classical economics, a potential offender is treated as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rational_choice_theory&#34; target=&#34;_blank&#34;&gt;rational agent&lt;/a&gt; that seeks to maximize the expected utility when deciding whether to commit a crime. Therefore, if the perceived threat of legal punishment outweights the gains from the crime action, then the offender is &lt;a href=&#34;https://en.wikipedia.org/wiki/Deterrence_%28penology%29&#34; target=&#34;_blank&#34;&gt;deterred&lt;/a&gt;. However, in reality, there are complex &lt;a href=&#34;https://en.wikipedia.org/wiki/Prospect_theory&#34; target=&#34;_blank&#34;&gt;behavioral traits&lt;/a&gt; governing the risk perception of each individual that deviate from rationality. These effects need to be captured in order to construct a &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3457220&#34; target=&#34;_blank&#34;&gt;general model of deterrence&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In classical economics, a potential offender is treated as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rational_choice_theory&#34;&gt;rational agent&lt;/a&gt; that seeks to maximize the expected utility when deciding whether to commit a crime. Therefore, if the perceived threat of legal punishment outweights the gains from the crime action, then the offender is &lt;a href=&#34;https://en.wikipedia.org/wiki/Deterrence_(penology)&#34;&gt;deterred&lt;/a&gt;. However, in reality, there are complex &lt;a href=&#34;https://en.wikipedia.org/wiki/Prospect_theory&#34;&gt;behavioral traits&lt;/a&gt; governing the risk perception of each individual that deviate from rationality. These effects need to be captured in order to construct a &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3457220&#34;&gt;general model of deterrence&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

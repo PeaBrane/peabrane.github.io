@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deep-Learning on Rudy Pei (裴彦儒)</title>
+    <link>https://peabrane.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep-Learning on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temporal Neural Networks (TENNs) at BrainChip</title>
+      <link>https://peabrane.github.io/post/tenns/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/tenns/</guid>
+      <description>&lt;p&gt;While working at &lt;a href=&#34;https://brainchip.com/&#34;&gt;BrainChip&lt;/a&gt;, I led the research and software-hardware codesign of TENNs (Temporal Neural Networks) — a family of deep state-space models designed for efficient, low-latency inference on edge hardware. This line of work developed in parallel with the broader SSM wave (Mamba, Gated Delta Net, etc.), cross-pollinating ideas around structured recurrences, parallel scans, and kernel parameterizations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

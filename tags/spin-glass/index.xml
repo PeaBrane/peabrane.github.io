@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>spin-glass on Rudy Pei (裴彦儒)</title>
+    <title>Spin-Glass on Rudy Pei (裴彦儒)</title>
     <link>https://peabrane.github.io/tags/spin-glass/</link>
-    <description>Recent content in spin-glass on Rudy Pei (裴彦儒)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Spin-Glass on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://peabrane.github.io/tags/spin-glass/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/spin-glass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phase Transition in Spin Glass</title>
       <link>https://peabrane.github.io/post/glass/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://peabrane.github.io/post/glass/</guid>
-      <description>&lt;p&gt;Unlike ferromagnetic spin models, a &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34; target=&#34;_blank&#34;&gt;spin glass&lt;/a&gt; has a highly non-trivial phase transition profile. For mean field models (the SK spin glass), the glass experiences a &lt;a href=&#34;http://www.lptms.u-psud.fr/membres/mezard/Pdf/84_MPSTV_JDP.pdf&#34; target=&#34;_blank&#34;&gt;replica-symmetry breaking phenomenon&lt;/a&gt; that is only fully understood &lt;a href=&#34;https://arxiv.org/abs/1112.1003&#34; target=&#34;_blank&#34;&gt;recently&lt;/a&gt;. However, for &lt;a href=&#34;https://arxiv.org/abs/cond-mat/9906076&#34; target=&#34;_blank&#34;&gt;short-range models&lt;/a&gt;, almost nothing is known &lt;a href=&#34;https://www.springer.com/gp/book/9783764357771&#34; target=&#34;_blank&#34;&gt;rigorously&lt;/a&gt;, including basic problems such as the nature of the glass transition. A potential route towards settling such problems may rely on a suitable generalization of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_cluster_model&#34; target=&#34;_blank&#34;&gt;random cluster model&lt;/a&gt; as a &lt;a href=&#34;https://arxiv.org/abs/1711.02338&#34; target=&#34;_blank&#34;&gt;universal&lt;/a&gt; statistical tool.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Unlike ferromagnetic spin models, a &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34;&gt;spin glass&lt;/a&gt; has a highly non-trivial phase transition profile. For mean field models (the SK spin glass), the glass experiences a &lt;a href=&#34;http://www.lptms.u-psud.fr/membres/mezard/Pdf/84_MPSTV_JDP.pdf&#34;&gt;replica-symmetry breaking phenomenon&lt;/a&gt; that is only fully understood &lt;a href=&#34;https://arxiv.org/abs/1112.1003&#34;&gt;recently&lt;/a&gt;. However, for &lt;a href=&#34;https://arxiv.org/abs/cond-mat/9906076&#34;&gt;short-range models&lt;/a&gt;, almost nothing is known &lt;a href=&#34;https://www.springer.com/gp/book/9783764357771&#34;&gt;rigorously&lt;/a&gt;, including basic problems such as the nature of the glass transition. A potential route towards settling such problems may rely on a suitable generalization of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_cluster_model&#34;&gt;random cluster model&lt;/a&gt; as a &lt;a href=&#34;https://arxiv.org/abs/1711.02338&#34;&gt;universal&lt;/a&gt; statistical tool.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
