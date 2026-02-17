@@ -10,7 +10,7 @@
 <meta name="description" content="the personal webpage of Yan Ru Pei">
 <meta name="author" content="PeaBrane">
 <link rel="canonical" href="https://peabrane.github.io/tags/piano/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1db4cf91388dff0f19e4d4506f7f103ee91771d3303f2bff08b08fb7d3a1c3c2.css" integrity="sha256-HbTPkTiN/w8Z5NRQb38QPukXcdMwPyv/CLCPt9Ohw8I=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://peabrane.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://peabrane.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://peabrane.github.io/favicon-32x32.png">
@@ -34,7 +34,9 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://peabrane.github.io/tags/piano/">
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"><meta property="og:url" content="https://peabrane.github.io/tags/piano/">
   <meta property="og:site_name" content="Rudy Pei (裴彦儒)">
   <meta property="og:title" content="Piano">
   <meta property="og:description" content="the personal webpage of Yan Ru Pei">
@@ -123,20 +125,7 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Stay With Me x Golden Hour mashup
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>A mashup of Stay With Me and Golden Hour.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-11-10 00:00:00 +0000 UTC'>November 10, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>9 words</span>&nbsp;·&nbsp;<span>PeaBrane</span></footer>
-  <a class="entry-link" aria-label="post link to Stay With Me x Golden Hour mashup" href="https://peabrane.github.io/comps/stay_gold/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Opus 3: short piece with 100 notes
+    <h2 class="entry-hint-parent">Opus 4: short piece with 100 notes
     </h2>
   </header>
   <div class="entry-content">
@@ -144,12 +133,12 @@
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2019-11-05 00:00:00 +0000 UTC'>November 5, 2019</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>21 words</span>&nbsp;·&nbsp;<span>PeaBrane</span></footer>
-  <a class="entry-link" aria-label="post link to Opus 3: short piece with 100 notes" href="https://peabrane.github.io/comps/opus_3/"></a>
+  <a class="entry-link" aria-label="post link to Opus 4: short piece with 100 notes" href="https://peabrane.github.io/comps/opus_3/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Happy Birthday: a medley of her favorite songs
+    <h2 class="entry-hint-parent">Opus 3: Happy Birthday — a medley of her favorite songs
     </h2>
   </header>
   <div class="entry-content">
@@ -157,7 +146,7 @@
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2019-07-17 00:00:00 +0000 UTC'>July 17, 2019</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>15 words</span>&nbsp;·&nbsp;<span>PeaBrane</span></footer>
-  <a class="entry-link" aria-label="post link to Happy Birthday: a medley of her favorite songs" href="https://peabrane.github.io/comps/happy_birthday/"></a>
+  <a class="entry-link" aria-label="post link to Opus 3: Happy Birthday — a medley of her favorite songs" href="https://peabrane.github.io/comps/happy_birthday/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -213,7 +202,51 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+(function() {
+    var menu = document.getElementById('menu');
+    if (!menu) return;
+
+    var active = menu.querySelector('.active');
+    if (!active) return;
+
+    var indicator = document.createElement('div');
+    indicator.id = 'menu-indicator';
+    menu.appendChild(indicator);
+
+    var menuRect = menu.getBoundingClientRect();
+    var activeRect = active.getBoundingClientRect();
+    var currentLeft = activeRect.left - menuRect.left + menu.scrollLeft;
+    var currentWidth = activeRect.width;
+
+    var prev = sessionStorage.getItem('tab-indicator');
+    if (prev) {
+        prev = JSON.parse(prev);
+        indicator.style.transition = 'none';
+        indicator.style.left = prev.left + 'px';
+        indicator.style.width = prev.width + 'px';
+        indicator.offsetHeight; 
+        indicator.style.transition = '';
+        indicator.style.left = currentLeft + 'px';
+        indicator.style.width = currentWidth + 'px';
+    } else {
+        indicator.style.left = currentLeft + 'px';
+        indicator.style.width = currentWidth + 'px';
+    }
+
+    sessionStorage.setItem('tab-indicator', JSON.stringify({ left: currentLeft, width: currentWidth }));
+})();
+</script>
+
+<script>
+(function() {
+    var entries = document.querySelectorAll('.post-entry, .first-entry');
+    for (var i = 0; i < entries.length; i++) {
+        entries[i].style.animationDelay = (i * 0.06) + 's';
+        entries[i].classList.add('animate-in');
+    }
+})();
+</script>
 
 <script>
     let menu = document.getElementById('menu');

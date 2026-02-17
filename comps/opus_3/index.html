@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Opus 3: short piece with 100 notes | Rudy Pei (裴彦儒)</title>
+<title>Opus 4: short piece with 100 notes | Rudy Pei (裴彦儒)</title>
 <meta name="keywords" content="piano, composition">
 <meta name="description" content="The title says it all. A short piano piece written in exactly 100 notes. Inspired by Nahre Sol&rsquo;s 100 note challenge.">
 <meta name="author" content="PeaBrane">
 <link rel="canonical" href="https://peabrane.github.io/comps/opus_3/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1db4cf91388dff0f19e4d4506f7f103ee91771d3303f2bff08b08fb7d3a1c3c2.css" integrity="sha256-HbTPkTiN/w8Z5NRQb38QPukXcdMwPyv/CLCPt9Ohw8I=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://peabrane.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://peabrane.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://peabrane.github.io/favicon-32x32.png">
@@ -33,9 +33,11 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://peabrane.github.io/comps/opus_3/">
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"><meta property="og:url" content="https://peabrane.github.io/comps/opus_3/">
   <meta property="og:site_name" content="Rudy Pei (裴彦儒)">
-  <meta property="og:title" content="Opus 3: short piece with 100 notes">
+  <meta property="og:title" content="Opus 4: short piece with 100 notes">
   <meta property="og:description" content="The title says it all. A short piano piece written in exactly 100 notes. Inspired by Nahre Sol’s 100 note challenge.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -47,7 +49,7 @@
       <meta property="og:image" content="https://peabrane.github.io/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://peabrane.github.io/img/og.png">
-<meta name="twitter:title" content="Opus 3: short piece with 100 notes">
+<meta name="twitter:title" content="Opus 4: short piece with 100 notes">
 <meta name="twitter:description" content="The title says it all. A short piano piece written in exactly 100 notes. Inspired by Nahre Sol&rsquo;s 100 note challenge.">
 
 
@@ -65,7 +67,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Opus 3: short piece with 100 notes",
+      "name": "Opus 4: short piece with 100 notes",
       "item": "https://peabrane.github.io/comps/opus_3/"
     }
   ]
@@ -75,8 +77,8 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Opus 3: short piece with 100 notes",
-  "name": "Opus 3: short piece with 100 notes",
+  "headline": "Opus 4: short piece with 100 notes",
+  "name": "Opus 4: short piece with 100 notes",
   "description": "The title says it all. A short piano piece written in exactly 100 notes. Inspired by Nahre Sol\u0026rsquo;s 100 note challenge.\n",
   "keywords": [
     "piano", "composition"
@@ -178,7 +180,7 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://peabrane.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://peabrane.github.io/comps/">Music</a></div>
     <h1 class="post-title entry-hint-parent">
-      Opus 3: short piece with 100 notes
+      Opus 4: short piece with 100 notes
     </h1>
     <div class="post-meta"><span title='2019-11-05 00:00:00 +0000 UTC'>November 5, 2019</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>21 words</span>&nbsp;·&nbsp;<span>PeaBrane</span>
 
@@ -212,7 +214,66 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+(function() {
+    var menu = document.getElementById('menu');
+    if (!menu) return;
+
+    var active = menu.querySelector('.active');
+    if (!active) return;
+
+    var indicator = document.createElement('div');
+    indicator.id = 'menu-indicator';
+    menu.appendChild(indicator);
+
+    var menuRect = menu.getBoundingClientRect();
+    var activeRect = active.getBoundingClientRect();
+    var currentLeft = activeRect.left - menuRect.left + menu.scrollLeft;
+    var currentWidth = activeRect.width;
+
+    var prev = sessionStorage.getItem('tab-indicator');
+    if (prev) {
+        prev = JSON.parse(prev);
+        indicator.style.transition = 'none';
+        indicator.style.left = prev.left + 'px';
+        indicator.style.width = prev.width + 'px';
+        indicator.offsetHeight; 
+        indicator.style.transition = '';
+        indicator.style.left = currentLeft + 'px';
+        indicator.style.width = currentWidth + 'px';
+    } else {
+        indicator.style.left = currentLeft + 'px';
+        indicator.style.width = currentWidth + 'px';
+    }
+
+    sessionStorage.setItem('tab-indicator', JSON.stringify({ left: currentLeft, width: currentWidth }));
+})();
+</script>
+
+<script>
+(function() {
+    var entries = document.querySelectorAll('.post-entry, .first-entry');
+    for (var i = 0; i < entries.length; i++) {
+        entries[i].style.animationDelay = (i * 0.06) + 's';
+        entries[i].classList.add('animate-in');
+    }
+})();
+</script>
+<script>
+(function() {
+    var bar = document.createElement('div');
+    bar.id = 'reading-progress';
+    document.body.appendChild(bar);
+
+    window.addEventListener('scroll', function() {
+        var scrollTop = window.scrollY;
+        var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        if (docHeight > 0) {
+            bar.style.width = (scrollTop / docHeight * 100) + '%';
+        }
+    }, { passive: true });
+})();
+</script>
 
 <script>
     let menu = document.getElementById('menu');

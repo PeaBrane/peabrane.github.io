@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lofi on Rudy Pei (裴彦儒)</title>
-    <link>https://peabrane.github.io/tags/lofi/</link>
+    <link>http://localhost:1313/tags/lofi/</link>
     <description>Recent content in Lofi on Rudy Pei (裴彦儒)</description>
     <image>
       <title>Rudy Pei (裴彦儒)</title>
-      <url>https://peabrane.github.io/img/og.png</url>
-      <link>https://peabrane.github.io/img/og.png</link>
+      <url>http://localhost:1313/img/og.png</url>
+      <link>http://localhost:1313/img/og.png</link>
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://peabrane.github.io/tags/lofi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/lofi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An ecstatic lofi</title>
-      <link>https://peabrane.github.io/comps/lofi/</link>
+      <link>http://localhost:1313/comps/lofi/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/comps/lofi/</guid>
+      <guid>http://localhost:1313/comps/lofi/</guid>
       <description>&lt;p&gt;A &lt;a href=&#34;https://www.youtube.com/watch?v=Jys7Ibv7zqc&amp;amp;ab_channel=PeaBrane&#34;&gt;lofi hip-hop&lt;/a&gt; made from samples of Richter&amp;rsquo;s recording on Scriabin&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=xDTgj_69JKA&amp;amp;ab_channel=Pianoplayer002&#34;&gt;piano sonata no.5&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

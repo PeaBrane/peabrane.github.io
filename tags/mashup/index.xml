@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mashup on Rudy Pei (裴彦儒)</title>
+    <link>https://peabrane.github.io/tags/mashup/</link>
+    <description>Recent content in Mashup on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/mashup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stay With Me x Golden Hour mashup</title>
+      <link>https://peabrane.github.io/comps/stay_gold/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/comps/stay_gold/</guid>
+      <description>&lt;p&gt;A mashup of &lt;a href=&#34;https://www.youtube.com/watch?v=QNYT9wVwQ8A&#34;&gt;&lt;em&gt;Stay With Me&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=PEM0Vs8jf1w&#34;&gt;&lt;em&gt;Golden Hour&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An ecstatic lofi</title>
+      <link>https://peabrane.github.io/comps/lofi/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/comps/lofi/</guid>
+      <description>&lt;p&gt;A &lt;a href=&#34;https://www.youtube.com/watch?v=Jys7Ibv7zqc&amp;amp;ab_channel=PeaBrane&#34;&gt;lofi hip-hop&lt;/a&gt; made from samples of Richter&amp;rsquo;s recording on Scriabin&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=xDTgj_69JKA&amp;amp;ab_channel=Pianoplayer002&#34;&gt;piano sonata no.5&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Opus 3: Happy Birthday — a medley of her favorite songs</title>
+      <link>https://peabrane.github.io/comps/happy_birthday/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/comps/happy_birthday/</guid>
+      <description>&lt;p&gt;A happy birthday incorporating all of my wife Yuki&amp;rsquo;s favorite songs as her birthday present.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

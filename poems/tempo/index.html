@@ -19,7 +19,7 @@ Between the steep ravine swirls gleamy stream
 Convening streams the withered fish shall spring">
 <meta name="author" content="PeaBrane">
 <link rel="canonical" href="https://peabrane.github.io/poems/tempo/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1db4cf91388dff0f19e4d4506f7f103ee91771d3303f2bff08b08fb7d3a1c3c2.css" integrity="sha256-HbTPkTiN/w8Z5NRQb38QPukXcdMwPyv/CLCPt9Ohw8I=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://peabrane.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://peabrane.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://peabrane.github.io/favicon-32x32.png">
@@ -42,7 +42,9 @@ Convening streams the withered fish shall spring">
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://peabrane.github.io/poems/tempo/">
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"><meta property="og:url" content="https://peabrane.github.io/poems/tempo/">
   <meta property="og:site_name" content="Rudy Pei (裴彦儒)">
   <meta property="og:title" content="Tempo">
   <meta property="og:description" content="A patchy sod with grass and wild floret Blue current spirals merging rocks and sand White smokes and droplets dawn the valleyed land Three puffs to lace the hazy mind forget
@@ -203,20 +205,20 @@ Convening streams the withered fish shall spring">
 
 </div>
   </header> 
-  <div class="post-content"><p>A patchy sod with grass and wild floret <br>
-Blue current spirals merging rocks and sand <br>
-White smokes and droplets dawn the valleyed land <br>
+  <div class="post-content"><p>A patchy sod with <span style="color: #4CAF50">grass</span> and wild floret <br>
+<span style="color: #42a5f5">Blue</span> current spirals merging rocks and sand <br>
+<span style="color: #e8e8e8">White</span> smokes and droplets dawn the valleyed land <br>
 Three puffs to lace the hazy mind forget</p>
-<p>Cartwheel through time rolls back the wood roulette <br>
+<p>Cartwheel through time rolls back the <span style="color: #A0522D">wood</span> roulette <br>
 Sweet martingale each step we take is grand <br>
 Through canyoned hills we surf yet where we strand <br>
-In shrouded waves we rest with teared duvet</p>
-<p>Between the steep ravine swirls gleamy stream <br>
-Convening streams the withered fish shall spring</p>
-<p>Under the dirge washed earth we search the verse <br>
-To cry the spell, entomb the doom that looms <br>
-In glassy mist the thirsted birch unearth <br>
-With doomy gloom the fumy shrooms abloom</p>
+In shrouded <span style="color: #5dade2">waves</span> we rest with teared duvet</p>
+<p>Between the steep ravine swirls <span style="color: #FFD700">gleamy</span> stream <br>
+Convening streams the withered fish shall <span style="color: #66BB6A">spring</span></p>
+<p>Under the dirge washed <span style="color: #b8860b">earth</span> we search the verse <br>
+To cry the spell, entomb the <span style="color: #e53935">doom</span> that looms <br>
+In glassy mist the thirsted <span style="color: #D2B48C">birch</span> unearth <br>
+With doomy gloom the fumy <span style="color: #9C27B0">shrooms</span> abloom</p>
 
 
   </div>
@@ -243,7 +245,66 @@ With doomy gloom the fumy shrooms abloom</p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+(function() {
+    var menu = document.getElementById('menu');
+    if (!menu) return;
+
+    var active = menu.querySelector('.active');
+    if (!active) return;
+
+    var indicator = document.createElement('div');
+    indicator.id = 'menu-indicator';
+    menu.appendChild(indicator);
+
+    var menuRect = menu.getBoundingClientRect();
+    var activeRect = active.getBoundingClientRect();
+    var currentLeft = activeRect.left - menuRect.left + menu.scrollLeft;
+    var currentWidth = activeRect.width;
+
+    var prev = sessionStorage.getItem('tab-indicator');
+    if (prev) {
+        prev = JSON.parse(prev);
+        indicator.style.transition = 'none';
+        indicator.style.left = prev.left + 'px';
+        indicator.style.width = prev.width + 'px';
+        indicator.offsetHeight; 
+        indicator.style.transition = '';
+        indicator.style.left = currentLeft + 'px';
+        indicator.style.width = currentWidth + 'px';
+    } else {
+        indicator.style.left = currentLeft + 'px';
+        indicator.style.width = currentWidth + 'px';
+    }
+
+    sessionStorage.setItem('tab-indicator', JSON.stringify({ left: currentLeft, width: currentWidth }));
+})();
+</script>
+
+<script>
+(function() {
+    var entries = document.querySelectorAll('.post-entry, .first-entry');
+    for (var i = 0; i < entries.length; i++) {
+        entries[i].style.animationDelay = (i * 0.06) + 's';
+        entries[i].classList.add('animate-in');
+    }
+})();
+</script>
+<script>
+(function() {
+    var bar = document.createElement('div');
+    bar.id = 'reading-progress';
+    document.body.appendChild(bar);
+
+    window.addEventListener('scroll', function() {
+        var scrollTop = window.scrollY;
+        var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        if (docHeight > 0) {
+            bar.style.width = (scrollTop / docHeight * 100) + '%';
+        }
+    }, { passive: true });
+})();
+</script>
 
 <script>
     let menu = document.getElementById('menu');
