@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/spin-glass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peapods: Ising Monte Carlo in Rust</title>
+      <link>https://peabrane.github.io/post/peapods/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/peapods/</guid>
+      <description>&lt;p&gt;Simulating &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34;&gt;spin glasses&lt;/a&gt; at scale has always been a pain — Python is too slow, and C++ is too painful. &lt;a href=&#34;https://github.com/PeaBrane/peapods&#34;&gt;Peapods&lt;/a&gt; is my attempt at a middle ground: a Monte Carlo package for Ising spin systems where the hot loops are written in Rust and everything else stays in Python, glued together with &lt;a href=&#34;https://pyo3.rs&#34;&gt;PyO3&lt;/a&gt;. You just &lt;code&gt;pip install peapods&lt;/code&gt; and go.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Phase Transition in Spin Glass</title>
       <link>https://peabrane.github.io/post/glass/</link>
