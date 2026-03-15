@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flash Indexer for Dynamo</title>
+      <link>https://peabrane.github.io/post/flash-indexer/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/flash-indexer/</guid>
+      <description>&lt;p&gt;I worked on the &lt;a href=&#34;https://docs.nvidia.com/dynamo/dev/blog/flash-indexer&#34;&gt;Flash Indexer&lt;/a&gt;, a high-throughput global KV-cache indexer for &lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;NVIDIA Dynamo&lt;/a&gt;. The problem is to track which inference workers hold which KV blocks, and then answer routing queries fast enough that the indexer itself does not become the bottleneck.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>NVIDIA Dynamo: Distributed LLM Inference</title>
       <link>https://peabrane.github.io/post/dynamo/</link>

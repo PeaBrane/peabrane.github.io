@@ -21,6 +21,13 @@
       <description>&lt;p&gt;Simulating &lt;a href=&#34;https://en.wikipedia.org/wiki/Spin_glass&#34;&gt;spin glasses&lt;/a&gt; at scale has always been a pain — Python is too slow, and C++ is too painful. &lt;a href=&#34;https://github.com/PeaBrane/peapods&#34;&gt;Peapods&lt;/a&gt; is my attempt at a middle ground: a Monte Carlo package for Ising spin systems where the hot loops are written in Rust and everything else stays in Python, glued together with &lt;a href=&#34;https://pyo3.rs&#34;&gt;PyO3&lt;/a&gt;. You just &lt;code&gt;pip install peapods&lt;/code&gt; and go.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Flash Indexer for Dynamo</title>
+      <link>https://peabrane.github.io/post/flash-indexer/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/flash-indexer/</guid>
+      <description>&lt;p&gt;I worked on the &lt;a href=&#34;https://docs.nvidia.com/dynamo/dev/blog/flash-indexer&#34;&gt;Flash Indexer&lt;/a&gt;, a high-throughput global KV-cache indexer for &lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;NVIDIA Dynamo&lt;/a&gt;. The problem is to track which inference workers hold which KV blocks, and then answer routing queries fast enough that the indexer itself does not become the bottleneck.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>NVIDIA Dynamo: Distributed LLM Inference</title>
       <link>https://peabrane.github.io/post/dynamo/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
