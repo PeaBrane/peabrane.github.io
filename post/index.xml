@@ -9,10 +9,17 @@
       <url>https://peabrane.github.io/img/og.png</url>
       <link>https://peabrane.github.io/img/og.png</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo -- 0.163.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DynoSim: Simulating the Pareto Frontier</title>
+      <link>https://peabrane.github.io/post/dynosim/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/dynosim/</guid>
+      <description>&lt;p&gt;I worked on &lt;a href=&#34;https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier/&#34;&gt;DynoSim&lt;/a&gt; and coauthored the NVIDIA technical blog introducing it. DynoSim is a workload-driven discrete-event simulation of the &lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;NVIDIA Dynamo&lt;/a&gt; serving stack: a digital twin that combines engine timing, scheduler behavior, routing, planning, KV-cache effects, and workload traces on one virtual timeline.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Peapods: Ising Monte Carlo in Rust</title>
       <link>https://peabrane.github.io/post/peapods/</link>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Optimization on Rudy Pei (裴彦儒)</title>
+    <link>https://peabrane.github.io/tags/optimization/</link>
+    <description>Recent content in Optimization on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/img/og.png</url>
+      <link>https://peabrane.github.io/img/og.png</link>
+    </image>
+    <generator>Hugo -- 0.163.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DynoSim: Simulating the Pareto Frontier</title>
+      <link>https://peabrane.github.io/post/dynosim/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/dynosim/</guid>
+      <description>&lt;p&gt;I worked on &lt;a href=&#34;https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier/&#34;&gt;DynoSim&lt;/a&gt; and coauthored the NVIDIA technical blog introducing it. DynoSim is a workload-driven discrete-event simulation of the &lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;NVIDIA Dynamo&lt;/a&gt; serving stack: a digital twin that combines engine timing, scheduler behavior, routing, planning, KV-cache effects, and workload traces on one virtual timeline.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
