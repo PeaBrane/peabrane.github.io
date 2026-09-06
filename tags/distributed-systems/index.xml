@@ -6,13 +6,27 @@
     <description>Recent content in Distributed-Systems on Rudy Pei (裴彦儒)</description>
     <image>
       <title>Rudy Pei (裴彦儒)</title>
-      <url>https://peabrane.github.io/img/og.png</url>
-      <link>https://peabrane.github.io/img/og.png</link>
+      <url>https://peabrane.github.io/profile_pic.jpg</url>
+      <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
     <generator>Hugo -- 0.163.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KV- and Token-Aware Routing in Ray Serve LLM</title>
+      <link>https://peabrane.github.io/post/anyscale-routing/</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/anyscale-routing/</guid>
+      <description>&lt;p&gt;I coauthored an &lt;a href=&#34;https://www.anyscale.com/blog/llm-kv-token-aware-routing&#34;&gt;Anyscale technical deep dive&lt;/a&gt; on integrating NVIDIA Dynamo&amp;rsquo;s KV-aware selection machinery into Ray Serve LLM. The collaboration is a useful example of a systems component becoming more valuable when it can be embedded outside the system where it started.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Multi-DC KV-Aware Routing with Gcore</title>
+      <link>https://peabrane.github.io/post/gcore-global-routing/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/gcore-global-routing/</guid>
+      <description>&lt;p&gt;I worked with Gcore&amp;rsquo;s AI team on the Dynamo side of a global inference-routing problem: when the same model is served in many data centers, how do you decide where each request should go without throwing away useful KV cache state?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>DynoSim: Simulating the Pareto Frontier</title>
       <link>https://peabrane.github.io/post/dynosim/</link>
@@ -32,7 +46,7 @@
       <link>https://peabrane.github.io/post/dynamo/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://peabrane.github.io/post/dynamo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;Dynamo&lt;/a&gt; is NVIDIA&amp;rsquo;s open-source datacenter-scale distributed inference serving framework for generative AI and reasoning models. Built in Rust for performance and Python for extensibility, it supports disaggregated prefill and decode, dynamic GPU scheduling, and LLM-aware request routing across multi-node multi-GPU topologies. The project has 6k+ GitHub stars and supports backends including TensorRT-LLM, vLLM, and SGLang.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/ai-dynamo/dynamo&#34;&gt;Dynamo&lt;/a&gt; is NVIDIA&amp;rsquo;s open-source datacenter-scale distributed inference serving framework for generative AI and reasoning models. Built in Rust for performance and Python for extensibility, it supports disaggregated prefill and decode, dynamic GPU scheduling, and LLM-aware request routing across multi-node multi-GPU topologies. It supports backends including TensorRT-LLM, vLLM, and SGLang.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -3,36 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://peabrane.github.io/tags/distributed-systems/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/post/dynosim/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <loc>https://peabrane.github.io/post/anyscale-routing/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/llm-inference/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/ray/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/routing/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/gcore-global-routing/</loc>
+    <lastmod>2026-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/rust/</loc>
+    <lastmod>2026-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/dynosim/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/optimization/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/post/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peabrane.github.io/tags/simulation/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/tags/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/monte-carlo/</loc>
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/peapods/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/tags/rust/</loc>
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/spin-glass/</loc>

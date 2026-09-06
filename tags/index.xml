@@ -6,25 +6,46 @@
     <description>Recent content in Tags on Rudy Pei (裴彦儒)</description>
     <image>
       <title>Rudy Pei (裴彦儒)</title>
-      <url>https://peabrane.github.io/img/og.png</url>
-      <link>https://peabrane.github.io/img/og.png</link>
+      <url>https://peabrane.github.io/profile_pic.jpg</url>
+      <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
     <generator>Hugo -- 0.163.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Distributed-Systems</title>
       <link>https://peabrane.github.io/tags/distributed-systems/</link>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://peabrane.github.io/tags/distributed-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Llm-Inference</title>
       <link>https://peabrane.github.io/tags/llm-inference/</link>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://peabrane.github.io/tags/llm-inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ray</title>
+      <link>https://peabrane.github.io/tags/ray/</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/ray/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Routing</title>
+      <link>https://peabrane.github.io/tags/routing/</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/routing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://peabrane.github.io/tags/rust/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/rust/</guid>
       <description></description>
     </item>
     <item>
@@ -46,13 +67,6 @@
       <link>https://peabrane.github.io/tags/monte-carlo/</link>
       <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://peabrane.github.io/tags/monte-carlo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://peabrane.github.io/tags/rust/</link>
-      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/tags/rust/</guid>
       <description></description>
     </item>
     <item>
