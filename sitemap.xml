@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peabrane.github.io/tags/math-visualization/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/theta-pc-visualized/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/percolation/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/probability/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/</loc>
+    <lastmod>2026-10-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peabrane.github.io/tags/distributed-systems/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,19 +32,10 @@
     <loc>https://peabrane.github.io/tags/llm-inference/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/post/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peabrane.github.io/tags/ray/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/tags/routing/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/tags/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/gcore-global-routing/</loc>

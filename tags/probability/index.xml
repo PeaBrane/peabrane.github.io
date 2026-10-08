@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Probability on Rudy Pei (裴彦儒)</title>
+    <link>https://peabrane.github.io/tags/probability/</link>
+    <description>Recent content in Probability on Rudy Pei (裴彦儒)</description>
+    <image>
+      <title>Rudy Pei (裴彦儒)</title>
+      <url>https://peabrane.github.io/profile_pic.jpg</url>
+      <link>https://peabrane.github.io/profile_pic.jpg</link>
+    </image>
+    <generator>Hugo -- 0.167.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://peabrane.github.io/tags/probability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Percolation at Criticality: the θ(p_c) = 0 Proof, Visualized</title>
+      <link>https://peabrane.github.io/post/theta-pc-visualized/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/theta-pc-visualized/</guid>
+      <description>A 13-minute animated tour of a recent proof that critical Bernoulli percolation has no infinite cluster, with a close look at the joint gluing inequality.</description>
+    </item>
+  </channel>
+</rss>

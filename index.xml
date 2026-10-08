@@ -9,10 +9,17 @@
       <url>https://peabrane.github.io/profile_pic.jpg</url>
       <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
-    <generator>Hugo -- 0.163.3</generator>
+    <generator>Hugo -- 0.167.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Percolation at Criticality: the θ(p_c) = 0 Proof, Visualized</title>
+      <link>https://peabrane.github.io/post/theta-pc-visualized/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/theta-pc-visualized/</guid>
+      <description>A 13-minute animated tour of a recent proof that critical Bernoulli percolation has no infinite cluster, with a close look at the joint gluing inequality.</description>
+    </item>
     <item>
       <title>KV- and Token-Aware Routing in Ray Serve LLM</title>
       <link>https://peabrane.github.io/post/anyscale-routing/</link>

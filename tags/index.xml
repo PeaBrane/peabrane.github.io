@@ -9,10 +9,31 @@
       <url>https://peabrane.github.io/profile_pic.jpg</url>
       <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
-    <generator>Hugo -- 0.163.3</generator>
+    <generator>Hugo -- 0.167.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math-Visualization</title>
+      <link>https://peabrane.github.io/tags/math-visualization/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/math-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Percolation</title>
+      <link>https://peabrane.github.io/tags/percolation/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/percolation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability</title>
+      <link>https://peabrane.github.io/tags/probability/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/probability/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Distributed-Systems</title>
       <link>https://peabrane.github.io/tags/distributed-systems/</link>
