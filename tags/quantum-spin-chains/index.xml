@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Percolation on Rudy Pei (裴彦儒)</title>
-    <link>https://peabrane.github.io/tags/percolation/</link>
-    <description>Recent content in Percolation on Rudy Pei (裴彦儒)</description>
+    <title>Quantum-Spin-Chains on Rudy Pei (裴彦儒)</title>
+    <link>https://peabrane.github.io/tags/quantum-spin-chains/</link>
+    <description>Recent content in Quantum-Spin-Chains on Rudy Pei (裴彦儒)</description>
     <image>
       <title>Rudy Pei (裴彦儒)</title>
       <url>https://peabrane.github.io/profile_pic.jpg</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- 0.167.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://peabrane.github.io/tags/percolation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://peabrane.github.io/tags/quantum-spin-chains/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corollaries Nobody Wrote Down</title>
       <link>https://peabrane.github.io/post/unwritten-corollaries/</link>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://peabrane.github.io/post/unwritten-corollaries/</guid>
       <description>Four long-standing questions in mathematical physics that follow in one line from theorems in OpenAI&amp;#39;s September 2026 manuscript collection, yet are stated nowhere: the 2D random ferromagnet, the spin-1 Heisenberg chain, and minimal spanning forests.</description>
-    </item>
-    <item>
-      <title>No Percolation at Criticality: the θ(p_c) = 0 Proof, Visualized</title>
-      <link>https://peabrane.github.io/post/theta-pc-visualized/</link>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/post/theta-pc-visualized/</guid>
-      <description>A 13-minute animated tour of a recent proof that critical Bernoulli percolation has no infinite cluster, with a close look at the joint gluing inequality.</description>
     </item>
   </channel>
 </rss>
