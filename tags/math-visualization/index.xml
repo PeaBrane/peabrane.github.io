@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.167.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/math-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From a Seed to an Infinite Cluster</title>
+      <link>https://peabrane.github.io/post/percolation-seeds-to-infinity/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/percolation-seeds-to-infinity/</guid>
+      <description>A visual companion to the cubic-lattice percolation argument: why seeds, quarter-faces, buffers, contractions, and a careful exploration turn local crossings into infinite growth.</description>
+    </item>
     <item>
       <title>No Percolation at Criticality: the θ(p_c) = 0 Proof, Visualized</title>
       <link>https://peabrane.github.io/post/theta-pc-visualized/</link>
