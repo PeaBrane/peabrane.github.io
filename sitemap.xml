@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peabrane.github.io/tags/fourier-analysis/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/probability/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/spin-glass/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/spin-glass-chaos-boolean-fourier/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peabrane.github.io/post/unwritten-corollaries/</loc>
     <lastmod>2026-10-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,19 +41,7 @@
     <loc>https://peabrane.github.io/tags/percolation/</loc>
     <lastmod>2026-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/tags/probability/</loc>
-    <lastmod>2026-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/post/</loc>
-    <lastmod>2026-10-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peabrane.github.io/tags/quantum-spin-chains/</loc>
-    <lastmod>2026-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/</loc>
-    <lastmod>2026-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/tags/</loc>
     <lastmod>2026-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/theta-pc-visualized/</loc>
@@ -72,9 +81,6 @@
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/peapods/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/tags/spin-glass/</loc>
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/flash-indexer/</loc>

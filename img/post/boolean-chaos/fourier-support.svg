@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="640" viewBox="0 0 720 640" role="img" aria-labelledby="title desc">
+  <title id="title">Gauge symmetry forces a connecting Fourier support</title>
+  <desc id="desc">The upper edge set connects i to j and has odd degree only at those endpoints. It includes a cycle attached to the path. The lower edge set has i and j in different components, so its Fourier coefficient vanishes.</desc>
+  <rect width="720" height="640" rx="12" fill="#f5f7fa"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#243244">
+    <text x="34" y="44" font-size="27" font-weight="650">Which edge sets can survive?</text>
+    <rect x="22" y="66" width="676" height="276" rx="12" fill="#fff" stroke="#dce5e8"/>
+    <text x="42" y="103" font-size="24" font-weight="600" fill="#24675c">Allowed by parity: a path plus a cycle</text>
+    <g fill="none" stroke="#24675c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M100 262 H620"/>
+      <path d="M270 262 L222 202 L270 142 L318 202 Z"/>
+    </g>
+    <g fill="#24675c">
+      <circle cx="270" cy="262" r="9"/><circle cx="445" cy="262" r="9"/>
+      <circle cx="222" cy="202" r="8"/><circle cx="270" cy="142" r="8"/><circle cx="318" cy="202" r="8"/>
+    </g>
+    <g fill="#7451a8">
+      <circle cx="100" cy="262" r="11"/><circle cx="620" cy="262" r="11"/>
+    </g>
+    <g font-size="25" font-style="italic" font-family="Georgia, serif">
+      <text x="94" y="244">i</text><text x="614" y="244">j</text>
+    </g>
+    <g font-size="23">
+      <text x="62" y="315">odd</text><text x="238" y="315">even</text>
+      <text x="417" y="315">even</text><text x="587" y="315">odd</text>
+      <text x="354" y="186">Cycle vertices</text><text x="354" y="218">also have even degree.</text>
+    </g>
+    <rect x="22" y="362" width="676" height="250" rx="12" fill="#fff" stroke="#dce5e8"/>
+    <text x="42" y="401" font-size="24" font-weight="600" fill="#a44c35">Forbidden: i and j are disconnected</text>
+    <rect x="64" y="438" width="257" height="105" rx="25" fill="#f6eefb" stroke="#7451a8" stroke-width="2" stroke-dasharray="7 6"/>
+    <path d="M100 490 H620" fill="none" stroke="#d7dee6" stroke-width="4"/>
+    <path d="M100 490 H270" fill="none" stroke="#a44c35" stroke-width="6" stroke-linecap="round"/>
+    <g fill="#a44c35"><circle cx="100" cy="490" r="11"/><circle cx="270" cy="490" r="9"/></g>
+    <g fill="#9aa8b6"><circle cx="445" cy="490" r="9"/><circle cx="620" cy="490" r="11"/></g>
+    <g font-size="25" font-style="italic" font-family="Georgia, serif">
+      <text x="94" y="474">i</text><text x="614" y="472">j</text>
+    </g>
+    <text x="349" y="455" font-size="22">Gray edges are outside S.</text>
+    <text x="42" y="579" font-size="23">Flip the dashed component:</text>
+  </g>
+  <text x="357" y="579" font-size="24" font-family="Georgia, serif" fill="#7451a8">fᵢⱼ → −fᵢⱼ,   χₛ → χₛ</text>
+</svg>
