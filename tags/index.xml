@@ -9,10 +9,52 @@
       <url>https://peabrane.github.io/profile_pic.jpg</url>
       <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
-    <generator>Hugo -- 0.167.0</generator>
+    <generator>Hugo -- 0.169.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disordered-Systems</title>
+      <link>https://peabrane.github.io/tags/disordered-systems/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/disordered-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markov-Chains</title>
+      <link>https://peabrane.github.io/tags/markov-chains/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/markov-chains/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematical-Physics</title>
+      <link>https://peabrane.github.io/tags/mathematical-physics/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/mathematical-physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Percolation</title>
+      <link>https://peabrane.github.io/tags/percolation/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/percolation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability</title>
+      <link>https://peabrane.github.io/tags/probability/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/probability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spin-Glass</title>
+      <link>https://peabrane.github.io/tags/spin-glass/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/spin-glass/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Fourier-Analysis</title>
       <link>https://peabrane.github.io/tags/fourier-analysis/</link>
@@ -21,45 +63,10 @@
       <description></description>
     </item>
     <item>
-      <title>Probability</title>
-      <link>https://peabrane.github.io/tags/probability/</link>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/tags/probability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spin-Glass</title>
-      <link>https://peabrane.github.io/tags/spin-glass/</link>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/tags/spin-glass/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Disordered-Systems</title>
-      <link>https://peabrane.github.io/tags/disordered-systems/</link>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/tags/disordered-systems/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Math-Visualization</title>
       <link>https://peabrane.github.io/tags/math-visualization/</link>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://peabrane.github.io/tags/math-visualization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mathematical-Physics</title>
-      <link>https://peabrane.github.io/tags/mathematical-physics/</link>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/tags/mathematical-physics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Percolation</title>
-      <link>https://peabrane.github.io/tags/percolation/</link>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://peabrane.github.io/tags/percolation/</guid>
       <description></description>
     </item>
     <item>
