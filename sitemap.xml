@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peabrane.github.io/post/riemann-hypothesis-lean-roadmap/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/ai-for-math/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/formal-proofs/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/lean/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/number-theory/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/post/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/riemann-hypothesis/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peabrane.github.io/tags/</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peabrane.github.io/post/dancing-with-frustration/</loc>
     <lastmod>2026-11-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,16 +47,7 @@
     <loc>https://peabrane.github.io/tags/probability/</loc>
     <lastmod>2026-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peabrane.github.io/post/</loc>
-    <lastmod>2026-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/</loc>
-    <lastmod>2026-11-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peabrane.github.io/tags/spin-glass/</loc>
-    <lastmod>2026-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peabrane.github.io/tags/</loc>
     <lastmod>2026-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peabrane.github.io/post/gluing-green-functions/</loc>

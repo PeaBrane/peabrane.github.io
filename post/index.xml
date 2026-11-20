@@ -9,10 +9,17 @@
       <url>https://peabrane.github.io/profile_pic.jpg</url>
       <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
-    <generator>Hugo -- 0.169.0</generator>
+    <generator>Hugo -- 0.170.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A roadmap of the claimed Lean proof of the Riemann hypothesis</title>
+      <link>https://peabrane.github.io/post/riemann-hypothesis-lean-roadmap/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/post/riemann-hypothesis-lean-roadmap/</guid>
+      <description>A reading guide to the 175,000-file Lean development released on 20 November 2026 that claims RH and GRH for Dirichlet L-functions: what is standard, what carries the argument, where to look first, and a plan for human readers.</description>
+    </item>
     <item>
       <title>Dancing with frustration: a review of short-range Ising spin glasses</title>
       <link>https://peabrane.github.io/post/dancing-with-frustration/</link>

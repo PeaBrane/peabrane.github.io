@@ -9,10 +9,45 @@
       <url>https://peabrane.github.io/profile_pic.jpg</url>
       <link>https://peabrane.github.io/profile_pic.jpg</link>
     </image>
-    <generator>Hugo -- 0.169.0</generator>
+    <generator>Hugo -- 0.170.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://peabrane.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai-for-Math</title>
+      <link>https://peabrane.github.io/tags/ai-for-math/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/ai-for-math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formal-Proofs</title>
+      <link>https://peabrane.github.io/tags/formal-proofs/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/formal-proofs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lean</title>
+      <link>https://peabrane.github.io/tags/lean/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/lean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Number-Theory</title>
+      <link>https://peabrane.github.io/tags/number-theory/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riemann-Hypothesis</title>
+      <link>https://peabrane.github.io/tags/riemann-hypothesis/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://peabrane.github.io/tags/riemann-hypothesis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Disordered-Systems</title>
       <link>https://peabrane.github.io/tags/disordered-systems/</link>
